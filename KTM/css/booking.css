@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+
+/* nav bar section */
+
+nav {
+    word-spacing: 30px;
+    letter-spacing: 3px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+nav>b>a {
+    color: orangered;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+nav>b>a:hover {
+    border-bottom: 2px solid orangered;
+    border-radius: 3px;
+}
+
+.divleft {
+    margin: 5rem 0 0 10rem;
+    float: left;
+    box-shadow: 0 0 20px black;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 40px;
+}
+
+.divright {
+    margin: 6rem 18rem 0 0;
+    float: right;
+    box-shadow: 0 0 20px black;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    width: fit-content;
+    padding: 10px 40px;
+}

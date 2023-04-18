@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+
+/* nav bar section */
+
+nav {
+    word-spacing: 30px;
+    letter-spacing: 3px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+nav>b>a {
+    color: orangered;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+nav>b>a:hover {
+    border-bottom: 2px solid orangered;
+    border-radius: 3px;
+}
+
+.maindiv {
+    padding: 30px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+.maindiv>div {
+    box-shadow: 0 0 20px black;
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+.img1 {
+    padding-top: 50px;
+}
+
+a {
+    color: orangered;
+    text-decoration: none;
+}
+
+form>div>div>a:hover {
+    text-decoration: underline;
+}
+
+
+/* footer css section */
+
+footer {
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}

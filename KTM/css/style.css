@@ -1,0 +1,88 @@
+body {
+    margin: 0%;
+}
+
+
+/* nav bar section */
+
+nav {
+    word-spacing: 30px;
+    letter-spacing: 3px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+nav>b>a {
+    color: orangered;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:hover {
+    border-bottom: 2px solid orangered;
+    border-radius: 3px;
+}
+
+
+/* main css section */
+
+main {
+    padding-left: 30px;
+    float: left;
+}
+
+main>div>p {
+    padding: 10px;
+    width: 500px;
+    border: 2px solid black;
+}
+
+b,
+u {
+    color: orangered;
+}
+
+
+/* ready to race css code */
+
+.rtr {
+    background: linear-gradient(to top, #970202, orangered, orangered);
+}
+
+.rtr>h1 {
+    font-size: 50px;
+}
+
+
+/* aside css section */
+
+img {
+    width: 650px;
+    padding-top: 90px;
+    padding-left: 130px;
+}
+
+.inputdiv {
+    padding-left: 62%;
+}
+
+button {
+    background-color: cornflowerblue;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: antiquewhite;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+
+/* footer css section */
+
+footer {
+    color: antiquewhite;
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}
